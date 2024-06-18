@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Reqres" verbose="1" >
+    <test name="comparingAadhar" >
+
+        <parameter name="url" value="https://reqres.in/api/users"></parameter>
+
+        <classes>
+            <class name="Demo.Aadharvalidation" />
+        </classes>
+    </test>
+
+
+</suite>
